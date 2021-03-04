@@ -18,7 +18,7 @@ main {
 }
 
 .content-wrapper {
-    width: 1400px;
+    width: 1200px;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ main {
 }
 
 .wrapper-left h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     line-height: 1.1;
     color: white;
     margin-bottom: 30px;
