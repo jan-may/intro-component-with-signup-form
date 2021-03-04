@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+
+    <div class="content-wrapper">
+
+      <div class="wrapper-left">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable.</p>
+      </div>
+
+      <div class="wrapper-right">
+        <p class="purple"><span><strong>Try it free 7 days&nbsp;</strong></span> then $20/mo. thereafter</p>
+
+        <div class="wrapper-form">
+          <form name="myForm">
+            <label for="fname"></label><br>
+            <input type="text" id="fname" name="fname" placeholder="First Name*" value="" required><br>
+            <p id="warning1" class="warning"><em>Bitte geben Sie Ihren Vornamen an</em></p>
+      
+            <label for="lname"></label><br>
+            <input type="text" id="lname" name="lname" placeholder="Last Name*" required><br>
+            <p id="warning2" class="warning"><em>Bitte geben Sie Ihren Nachnamen an</em></p>
+
+            <label for="mail"></label><br>
+            <input type="email" id="mail" name="mail" placeholder="Email Address*" required><br>
+            <p id="warning3" class="warning"><em>Bitte geben sie eine gültige Email-Adresse an</em></p>
+
+            <label for="pwd"></label><br>
+            <input type="password" id="pwd" name="pwd" placeholder="Password*" required><br><br>
+            <p id="warning4" class="warning"><em>8-20 Zeichen, min. eine Zahl, Großbuchstabe & Sonderzeichen</em></p>
+
+            <button id="submit" class="btn" type="submit" onclick="myFunction()">CLAIM YOUR FREE TRIAL</button>
+            
+          </form>
+          <p class="mini-text">By clicking the button, you are agreeing to our <a class="link" href="">Terms and Services</a></span></p>
+        </div>
+        
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
